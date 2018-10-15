@@ -4,7 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-2-col-portfolio/blob/master/LICENSE)
  */
 
-body {
+/* body {
   padding-top: 54px;
 }
 
@@ -20,4 +20,8 @@ body {
 
 .pagination {
   margin-bottom: 30px;
-}
+} */
+
+body (
+  background:black;
+  )
