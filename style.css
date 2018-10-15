@@ -1,30 +1,23 @@
-body{
-  font-family: "Times New Roman";
-  font-size: 20px;
-  background: #dddddd;
-  color: #333;
-  text-align: left;
+/*!
+ * Start Bootstrap - 2 Col Portfolio (https://startbootstrap.com/template-overviews/2-col-portfolio)
+ * Copyright 2013-2018 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-2-col-portfolio/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
 }
 
-.myname{
-  font-family: sans-serif;
-  padding: 12px;
-  margin: 20px;
-  border: 1px solid #eee;
-  color: #333;
-  background-color: #fff;
-  width:200px;
-  text-align: center;
-  border-radius: 20px;
-}
-
-.myname:hover{
-  color: blue;
-}
-
-@media only screen and (max-width: 600px) {
-
-body{
-   background-color: blue;
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
   }
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.pagination {
+  margin-bottom: 30px;
 }
