@@ -25,38 +25,86 @@
       <span><p style="margin-left:22%; margin-right:22%;font-size:32px;color: #666;padding-top:0%;">A greener way of ride-sharing inside university campus  .</p></span>
       <br>
       <p style="margin-left:22%; margin-right:22%;font-size:24px;">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam gravida pharetra fermentum. Phasellus et felis nisl. Morbi lectus eros, congue ut neque eget, dignissim varius arcu. Duis feugiat ipsum efficitur, volutpat metus non, fermentum turpis. Vestibulum pretium ex ut lectus iaculis, fermentum elementum enim vehicula. Nulla facilisi. In hac habitasse platea dictumst. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec ut ultricies lacus.
+        IIT Bombay has an area of more than 2.396 gross square feet. The campus is divided into clusters of buildings. All department annexes are connected by a corridor named Infinite Corridor. Beyond the Convocation Hall lie 16 hostels. Apart from the infinite corridor all the facilities and departments are also connected by streets. Commuting on the streets of IIT Bombay happens by foot and by cycling. The campus is restricted for three and four wheelers considering the environment of the campus. Still, you have the liberty of ran over by vehicles than the leopards as we regularly spot fast-moving vehicles. A walk through the 1.8km long main central street which connects all the streets takes around 25 min.
+<br><br>
+<img src="map.jpg"></img>
+<br><br>
+  A design challenge was given to order, to structure, and to remember as part of the Cognitive dimension when Designing for Interactivity. Guided by Prof. Ravi Poovaiah, we started off with a task of creating a digital campus. To identify the pain areas inside the campus tasks involved has been listed out. These tasks vary from student activities to academic and transportation and productivity. After the restriction of vehicles inside the campus, auto rickshaws have become the primary commute inside the campus. Ordering and structuring the transportation around us makes it easier to commute and travel. Increases in the use of auto rickshaw for commuting have meant that transportation has become costly and inaccessible every day for a broad range of people.
+<br><br>
+  Currently, IIT Bombay has a total of 14 academic departments, six centres, one school, and three interdisciplinary programmes. The university is a home for 3600 Undergraduates and 2000 Postgraduates. Provided with the transportation these students regularly are commuting with their own personal bikes. Auto rickshaws play a short role in transportation with costly meters and leave most of the commuters with more waiting time. With the tightly packed and early day starting academic schedules students who prefer a pedestrian commuting need a safer and a faster mode of travel. So the UG and PG students have been identified as the commuters where a shared bike solution which is economical and environment-friendly is needed.
+<br><br>
+  For the past few months, PEDL by Zoomcar and CYCLO by Yulu has been installed inside the campus. Both PEDL and YULU bikes provide a ride-sharing inside the campus. These services allow the students to commute using bikes which are available at several bike zones inside the campus. The zones are available to the users through a mobile application through which you can view the availability of bikes and reach the zone and start your journey. To understand these service we started off by using the service and following are the observations made.
+<br><br>
+<img src="pedl_cyclo.jpg"></img>
+<br><br>
+  CYCLO by Yulu:<br>
+  1. Requires an active Bluetooth connectivity between the device and the bike.<br>
+  2.Easily accessible by scanning the QR code available on the bike and using the 4-Digit PIN thrown by the app to unlock.<br>
+  3. The Ride can be paused only at the specified YULU zones.<br>
+  4. While pausing and ending the Ride the app always throws an error because of either Network connectivity or Bluetooth connectivity resulting in meaningless pauses and resumes.<br>
+  5. Bikes take a big buffer time to unlock after resuming the ride.<br>
+  6. Either Bike/Mobile Application do not recognise the YULU Zones and requires the app to be closed and re-opened.
+<br><br>
+  PEDL by Zoomcar:<br>
+  1. Provides a better connectivity than CYCLO but still resides the same problems.<br>
+  2. Inaccessible to IOS Users resulting in restricting to android users.<br>
+<br><br>
+  We went on with a primary research of understanding bike-sharing services in New York city, Hyderabad Metro, MIT University and Red Bikes. IIT Bombay campus has employed a shuttle service inside the campus called "Tum Tum". It was available until a couple of years ago. Reasons for terminating this service has been identified as unavailability of drivers and their maintenance. Students at the university remember the service as the widely used service as it commutes over all the streets and it was crowded since the quantity of the vehicles were very less. Students were asked to pay an amount of 1000 bucks to avail this service. After discussing within the team we realised that the part of the users who use mobile to access the bike-sharing service are unhappy about it which requires a complete engagement with the mobile application.
+<br><br>
+  A huge chunk of users is students travelling from their hostel to college and back spending just above 60 minutes/day on average. After interviewing a lot of these students, we found that most hire autos or ride their own bikes to reach early as in order to attend the lecture on time.
+<br><br>
+  Knowing this behaviour of long walks and late arrivals, we sensed an opportunity that we could do something more. We could actually provide an easy and convenient bike ride which can be accessed throughout the day from their hostels or departments.
+<br><br>
+  Drawing inspiration from the CYCLO & PEDL Services, we started thinking of a similar ride-sharing service. With the help of the device attached to the bike, we can isolate the user from the mobile application, and almost put them in their enjoyable riding experience with a simple interface to use from.
+<br><br>
+  A Big reference for us has been the SmartBike service used in Hyderabad, Bhopal and Bangalore which employed a display on the back of the carriage where the users enter the PIN to unlock the bike.
+<br><br>
+  The design of our interface module started off with a replaceable module system on the back of the carriage. This module contains three parts which serve the purpose of Accessibility, Feedback and Interactivity. After eliminating the mobile application int he journey of our service an Identity card is identified as the common and most important Smart card throughout the daily student life. This Card is a Radio Frequency ID card which provides access to all student's particular facilities. These cards are connected to the LDAP Data of the University. Each student has a unique Identity connected to the database which connects to their digital profile.
+<br><br>
+  So we decided on reusing the RF Identity card as the entry point of access for the service. So we included an RF Identity card reader which is connected to the University database and it identifies the identity of the user. The visual feedback of the availability of the bike is provided visually through an LED. The interface of the module allows the user to provide the required actions and lets him/her interact with the system.
+<br><br>
+  Let's watch a scenario of a student on the campus who is about to miss an early class and chooses a faster and eco way to travel.
+<br>
+  e-Vaahan puts the mobile in your pocket letting you enjoy the ride on the green streets of the campus making it truly your own ride.
+<br><br>
+  Screen Interface on the module requires an easily accessible and faster actionable console. Three actions helped us determine what primarily goes on the screen:<br>
+  1. Starting your ride by unlocking the bike<br>
+  2. Pausing your ride at any point of your journey and resuming it.<br>
+  3. Ending the ride without any hassle.<br>
+  We narrowed down the number of screens and actions by accessing the LDAP database of the students to identify the user when they use their ID card to scan and unlock the bike and just letting them choose between a primary and secondary action each time they perform an activity.
+<br><br>
+  As explained above the following are the initial explorations of the UI Screens of the system.
+  <br><br>
+  <img src="scr1.jpg"></img>
+  <br><br>
+  <img src="scr2.jpg"></img>
+  <br><br>
+  <img src="scr3.jpg"></img>
+<br><br>
+  After collecting an initial feedback from the users these are the results:
+  1. Users enjoy their ride rather worrying about keeping their mobile screen active all the time.
+  2. Users actively look forward while riding as the Interface needs their focus only when paused or Engaging/Disengaging.
+  3. They are happy about resuing their Identity card for unlocking the bike as it doesn't count in with the number of accounts they keep creating on their mobiles.
+  4. Users were not satisfied as there were no playful elements present in the interface.
+<br><br>
+  We went on redesigning the visual part of the screens by creating illustration and empty states which are youthful and pleasing. The writing style has been aligned with the language of the students to make them understand quicker.
+<br><br>
+  The later designs of the interface have been redesigned and made to look like this:
+<br><br>
 
-      Nam id eleifend risus, sit amet condimentum felis. Proin blandit in quam sit amet interdum. Pellentesque id sem vitae dui ultrices laoreet. Fusce magna dui, tincidunt et ligula vitae, varius venenatis ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec molestie vestibulum magna, ac malesuada lorem lobortis sit amet. Nunc interdum mollis convallis.
-
-      Phasellus ullamcorper commodo est ac porttitor. Pellentesque consequat porttitor quam, et varius turpis porta nec. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus magna arcu, dictum in tellus sit amet, feugiat dapibus purus. Morbi malesuada cursus sagittis. Sed nec tempor purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a ex sem. Morbi sed rhoncus urna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at dolor ligula. Aliquam laoreet sem id libero dictum convallis. Morbi ac lacus in eros suscipit faucibus.
-
-      Mauris mauris diam, euismod at consequat ac, cursus sit amet urna. Suspendisse velit est, cursus sit amet risus in, tristique pellentesque metus. Fusce condimentum dui sed feugiat scelerisque. Nulla ut vestibulum leo. Nunc lectus turpis, porttitor id tristique nec, convallis id felis. Etiam sed lectus eu dolor semper tristique. Donec euismod, enim in volutpat vulputate, ligula ipsum pretium erat, quis fringilla ligula magna id tortor. Donec lectus lorem, semper eu sapien et, accumsan bibendum lorem. Vivamus nunc lacus, elementum eu aliquet a, consequat a dui. Vestibulum dignissim viverra nibh, sit amet commodo dui congue vel. Etiam in justo ut metus tincidunt pulvinar quis molestie eros. Vivamus efficitur imperdiet tellus, sit amet consequat tellus dapibus eu.
-
-      Duis ac nunc bibendum, tristique est et, tincidunt urna. Sed interdum est eget sapien consequat, vel dapibus tortor bibendum. Aliquam quis scelerisque dolor. Mauris tristique metus lacus, et tincidunt dui facilisis vitae. Mauris interdum massa eu metus mattis finibus. Nullam ex odio, aliquam vitae venenatis sit amet, volutpat nec ex. Sed diam velit, pulvinar non vehicula et, elementum id turpis. Pellentesque porttitor, tortor quis molestie finibus, quam turpis consequat ligula, et ullamcorper lacus dolor vestibulum leo.
+  The Design task and the exploration of cognition of the target user group allowed me to understand how users understand or organise their activities and interact with interfaces. A week engagement with students and campus and existing bike-sharing service left me with a great experience and new skills.
+<br><br>
+  Thanks for your time for making till the end.
+  <br>
+  <a href="www.saianjan.com">Go back to Home for more works.</a>
       <br><br>
-      <span>
+      <!-- <span>
         <blockquote style="margin-left:22%; margin-right:22%;padding-left: 10px;color: #666; border-left: 3px solid black;font-size:24px;">
           <i>Hello</i>
         </blockquote>
-      </span>
+      </span> -->
       <br><br>
     </p>
-
-    <p style="margin-left:22%; margin-right:22%;font-size:24px;">
-      <img src="tennis.jpg"></img>
-      <br><br>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam gravida pharetra fermentum. Phasellus et felis nisl. Morbi lectus eros, congue ut neque eget, dignissim varius arcu. Duis feugiat ipsum efficitur, volutpat metus non, fermentum turpis. Vestibulum pretium ex ut lectus iaculis, fermentum elementum enim vehicula. Nulla facilisi. In hac habitasse platea dictumst. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec ut ultricies lacus.
-
-    Nam id eleifend risus, sit amet condimentum felis. Proin blandit in quam sit amet interdum. Pellentesque id sem vitae dui ultrices laoreet. Fusce magna dui, tincidunt et ligula vitae, varius venenatis ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec molestie vestibulum magna, ac malesuada lorem lobortis sit amet. Nunc interdum mollis convallis.
-
-    Phasellus ullamcorper commodo est ac porttitor. Pellentesque consequat porttitor quam, et varius turpis porta nec. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus magna arcu, dictum in tellus sit amet, feugiat dapibus purus. Morbi malesuada cursus sagittis. Sed nec tempor purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a ex sem. Morbi sed rhoncus urna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at dolor ligula. Aliquam laoreet sem id libero dictum convallis. Morbi ac lacus in eros suscipit faucibus.
-
-    Mauris mauris diam, euismod at consequat ac, cursus sit amet urna. Suspendisse velit est, cursus sit amet risus in, tristique pellentesque metus. Fusce condimentum dui sed feugiat scelerisque. Nulla ut vestibulum leo. Nunc lectus turpis, porttitor id tristique nec, convallis id felis. Etiam sed lectus eu dolor semper tristique. Donec euismod, enim in volutpat vulputate, ligula ipsum pretium erat, quis fringilla ligula magna id tortor. Donec lectus lorem, semper eu sapien et, accumsan bibendum lorem. Vivamus nunc lacus, elementum eu aliquet a, consequat a dui. Vestibulum dignissim viverra nibh, sit amet commodo dui congue vel. Etiam in justo ut metus tincidunt pulvinar quis molestie eros. Vivamus efficitur imperdiet tellus, sit amet consequat tellus dapibus eu.
-
-    Duis ac nunc bibendum, tristique est et, tincidunt urna. Sed interdum est eget sapien consequat, vel dapibus tortor bibendum. Aliquam quis scelerisque dolor. Mauris tristique metus lacus, et tincidunt dui facilisis vitae. Mauris interdum massa eu metus mattis finibus. Nullam ex odio, aliquam vitae venenatis sit amet, volutpat nec ex. Sed diam velit, pulvinar non vehicula et, elementum id turpis. Pellentesque porttitor, tortor quis molestie finibus, quam turpis consequat ligula, et ullamcorper lacus dolor vestibulum leo.
-
-  </p>
   </body>
 
 </html>
