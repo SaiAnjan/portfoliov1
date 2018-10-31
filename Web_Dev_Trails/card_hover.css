@@ -22,6 +22,7 @@ body {
   grid-template-columns: 80% 20%;
   max-width: 1200px;
   margin: 0 auto;
+  color: white;
 }
 .cat_title h1{
   font-family: 'Mukta', sans-serif;
