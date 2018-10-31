@@ -124,7 +124,7 @@ body {
   border-radius: 5px;
 }
 .card__one:hover, .card__one:focus {
-  transform: scale3d(1.006, 1.006, 1);
+  transform: scale3d(1.1, 1.1, 1);
 
 }
 .card__one:hover::after, .card__one:focus::after {
