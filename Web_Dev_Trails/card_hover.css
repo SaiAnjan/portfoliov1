@@ -45,13 +45,19 @@ body {
 }
 .cat_title {
   display: grid;
-  grid-template-columns: 80% 20%;
+  grid-template-columns: 70% 10% 20%;
   max-width: 1200px;
   margin: 0 auto;
 }
 .cat_title h1{
   font-family: 'Mukta', sans-serif;
   font-weight: 700;
+  color: black;
+}
+.cat_title h3{
+  font-family: 'Mukta', sans-serif;
+  font-weight: 400;
+  padding-right: 0%;
   color: black;
 }
 .cat_title a{
@@ -61,7 +67,12 @@ body {
   font-size: 15px;
   padding: 34px;
 }
-
+.cat_title select{
+  height: 50%;
+  color: white;
+  background-color: black;
+  font-size: 15px;
+}
 .card {
   /* position: relative; */
   border-radius: 5px;
