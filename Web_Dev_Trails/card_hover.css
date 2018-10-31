@@ -49,7 +49,7 @@ body {
   font-family: 'Mukta', sans-serif;
   /* display: block; */
   /* background: #FFF; */
-  /* overflow: hidden; */
+  overflow-x: hidden;
   position: relative;
   left: 0;
   right: 0;
