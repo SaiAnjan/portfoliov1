@@ -26,11 +26,13 @@ body {
 .cat_title h1{
   font-family: 'Mukta', sans-serif;
   font-weight: 700;
+  color: black;
 }
 .cat_title a{
   justify-content:center;
   font-family: 'Mukta', sans-serif;
   font-weight: 400;
+  font-size: 15px;
 }
 
 .card {
