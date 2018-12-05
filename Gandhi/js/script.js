@@ -20,7 +20,7 @@ $(".ind_mosaic").hover(function(){
     "z-index":"0",
     "transform":"scale(1,1)",
     "position":"relative",
-    "filter":"blur(1px)"
+    "filter":"blur(0px)"
   });
 }
 );
