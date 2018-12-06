@@ -10,7 +10,7 @@ $(".ind_mosaic").hover(function(){
     "transform":"scale(10,10)",
     "transform-origin":"center",
     "filter":"blur(0)",
-    "transition":"0.25s"
+    "transition":"0.15s"
   });
 }, function(){
   $(this).find(":button").hide();
@@ -18,7 +18,7 @@ $(".ind_mosaic").hover(function(){
     "width":"20",
     "height":"20",
     "z-index":"0",
-    "transform":"scale(0.8,0.8)",
+    "transform":"scale(1,1)",
     "position":"relative",
     "filter":"blur(0px)"
   });
