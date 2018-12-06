@@ -18,7 +18,7 @@ $(".ind_mosaic").hover(function(){
     "width":"20",
     "height":"20",
     "z-index":"0",
-    "transform":"scale(1,1)",
+    "transform":"scale(0.8,0.8)",
     "position":"relative",
     "filter":"blur(0px)"
   });
