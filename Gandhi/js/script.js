@@ -15,8 +15,8 @@ $(".ind_mosaic").hover(function(){
 }, function(){
   $(this).find(":button").hide();
   $(this).css({
-    "width":"20",
-    "height":"20",
+    // "width":"20",
+    // "height":"20",
     "z-index":"0",
     "transform":"scale(1,1)",
     "position":"relative",
