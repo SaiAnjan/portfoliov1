@@ -33,6 +33,30 @@
     width: 15px;
     box-shadow: 10px 10px 40px -1px rgba(215,227,227,1);
   }
+  @media only screen and (max-width: 400px) {
+    .wrapper{
+      display: grid;
+      width: 400px;
+      grid-template-columns: repeat(70, 1fr);
+      position: relative;
+      top: 120;
+    }
+    .ind_mosaic{
+      width: 5.7px;
+      height: 5.7px;
+      background-repeat:no-repeat;
+      background-size:cover;
+      filter: blur(0px);
+    }
+    .title{
+    	position: absolute;
+    	left: 5%;
+    	top: 1%;
+    }
+    .title img{
+    	width: 10px;
+    }
+}
   .title{
   	position: absolute;
   	left: 5%;
