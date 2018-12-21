@@ -10,7 +10,8 @@ $(".ind_mosaic").hover(function(){
     "transform":"scale(10,10)",
     "transform-origin":"center",
     "filter":"blur(0)",
-    "transition":"0.15s"
+    "transition":"0.15s",
+    "opacity":"1.0"
   });
 }, function(){
   $(this).find(":button").hide();
@@ -20,7 +21,8 @@ $(".ind_mosaic").hover(function(){
     "z-index":"0",
     "transform":"scale(1,1)",
     "position":"relative",
-    "filter":"blur(0px)"
+    "filter":"blur(0px)",
+    "opacity":"0.8"
   });
 }
 );
