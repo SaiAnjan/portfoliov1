@@ -2,13 +2,6 @@ html{
 	height: 100%;
 }
 
-.my-btn{
-	position: absolute;
-	top:550px;
-	left:50px;
-}
-
-
 button{
 	font-family: "Libre Franklin";
 	font-weight: 600;
