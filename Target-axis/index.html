@@ -62,12 +62,12 @@ function showCoordinates(event) {
       document.getElementById("coordinates5").innerHTML = " ";
 
 
-  if (Math.abs(y-btnY) < 40){
+  if (Math.abs(y-btnY) < 10){
     duration = duration + 1000/(Math.abs(y-btnY));
   document.getElementById("coordinates3").innerHTML = "Y matches";
   }
 
-  if (Math.abs(x-btnX) < 40){
+  if (Math.abs(x-btnX) < 10){
     duration = duration + 1000/(Math.abs(x-btnX));
     document.getElementById("coordinates4").innerHTML = "X matches";
   }
