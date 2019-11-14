@@ -62,17 +62,17 @@ function showCoordinates(event) {
       document.getElementById("coordinates5").innerHTML = " ";
 
 
-  if (Math.abs(y-btnY) < 80){
+  if (Math.abs(y-btnY) < 40){
     duration = duration + 1000/(Math.abs(y-btnY));
   document.getElementById("coordinates3").innerHTML = "Y matches";
   }
 
-  if (Math.abs(x-btnX) < 80){
+  if (Math.abs(x-btnX) < 40){
     duration = duration + 1000/(Math.abs(x-btnX));
     document.getElementById("coordinates4").innerHTML = "X matches";
   }
 
-  if (((Math.abs(y-btnY) < 30)) && (Math.abs(x-btnX) < 30)){
+  if (((Math.abs(y-btnY) < 40)) && (Math.abs(x-btnX) < 40)){
     beep();
   }
 
