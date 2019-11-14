@@ -51,8 +51,8 @@ function showCoordinates(event) {
   var x = event.touches[0].clientX;
   var y = event.touches[0].clientY;
 
-  var btnY = mybutton.offsetTop + 10;
-  var btnX = mybutton.offsetLeft + 10;
+  var btnY = mybutton.offsetTop;
+  var btnX = mybutton.offsetLeft;
 
   document.getElementById("coordinates").innerHTML = x + ", " + y;
   document.getElementById("coordinates2").innerHTML = btnX + ", " + btnY;
