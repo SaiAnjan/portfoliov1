@@ -72,13 +72,14 @@ function setActive(buttonid) {
     if (num == 13) {
       endExperiment();
     }
-    beep('btn');
+    beep(buttonid);
 }
 
 
 
-function beep() {
-    var snd = new Audio("audio/3.mp3");
+function beep(buttonId) {
+    const audioId = buttonId.charAt(buttonId.length - 1)
+    var snd = new Audio("audio/"+audioId+".mp3");
     snd.play();
 }
 
