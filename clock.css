@@ -1,0 +1,75 @@
+.btnstyle{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  width: 38px;
+  height: 38px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 32px;
+  position: absolute;
+}
+
+#btn1{
+  margin-left: 93px;
+  margin-top: 0px;
+}
+
+#btn2{
+  margin-left: 140px;
+  margin-top: 12px;
+}
+
+#btn3{
+  margin-left: 174px;
+  margin-top: 47px;
+}
+
+#btn4{
+  margin-left: 187px;
+  margin-top: 93px;
+}
+
+#btn5{
+  margin-left: 174px;
+  margin-top: 140px;
+}
+
+#btn6{
+  margin-left: 140px;
+  margin-top: 174px;
+}
+
+#btn7{
+  margin-left: 93px;
+  margin-top: 187px;
+}
+
+#btn8{
+  margin-left: 47px;
+  margin-top: 174px;
+}
+
+#btn9{
+  margin-left: 12px;
+  margin-top: 140px;
+}
+
+#btn10{
+  margin-left: 0px;
+  margin-top: 93px;
+}
+
+#btn11{
+  margin-left: 12px;
+  margin-top: 47px;
+}
+
+#btn12{
+  margin-left: 47px;
+  margin-top: 12px;
+}
