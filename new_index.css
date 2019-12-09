@@ -1,0 +1,284 @@
+/* MAc style dock by fivera.net */
+body{
+	background-color: black;
+	overflow: hidden;
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	cursor:pointer;
+}
+.dock_text{
+	font-size: 8px;
+}
+.folder_text{
+	font-size: 16px;
+}
+span{
+	color: white;
+	font-size: 16px;
+	color: #DCDDDD;
+}
+.about{
+	width: 70%;
+	margin: 10%;
+	margin-top: 5%;
+	margin-left: 15%;
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+h1{
+	color: white;
+	text-align: left;
+	line-height: 1.2;
+	font-size: 52px;
+	margin: 0;
+}
+h4{
+	font-weight: 300;
+	color: #CCCCCC;
+	text-align: left;
+	line-height: 1.4;
+	font-size: 18px;
+	margin:0;
+}
+h5{
+	font-weight: 700;
+	color: #CCCCCC;
+	text-align: left;
+	line-height: 1.4;
+	font-size: 18px;
+	margin:0;
+}
+.wrapper{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	width: 50%;
+}
+.grid-item {
+  font-size: 30px;
+  text-align: center;
+	color: white;
+	padding: 40px;
+}
+div.cap {
+	display: block;
+	height: 100px;
+	width: 40px;
+	background: url(http://fivera.net/wp-content/uploads/2013/08/dock-background-fivera-net.png) bottom left no-repeat;
+}
+
+div.cap.left {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+
+div.cap.right {
+	background-position: right bottom;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+ul.osx-dock {
+	display: inline-block;
+	height: 130px;
+	padding: 0 60px 0 0;
+	background: url(http://fivera.net/wp-content/uploads/2013/08/dock-background-fivera-net.png) no-repeat right bottom;
+	overflow: hidden;
+	margin: 0 0 0 40px;
+}
+
+ul.osx-dock li {
+	display: block;
+	position: relative;
+	float: left;
+	width: 53px;
+	height: 53px;
+	margin: 60px 0 4px 0;
+
+	-webkit-transition: 0.15s linear;
+	-moz-transition: 0.15s linear;
+	-o-transition: 0.15s linear;
+	-ms-transition: 0.15s linear;
+	transition: 0.15s linear;
+
+	-webkit-transition-property: -webkit-transform margin;
+	-moz-transition-property: -moz-transform margin;
+	-o-transition-property: -o-transform margin;
+	-ms-transition-property: -ms-transform margin;
+	transition-property: transform margin;
+	text-align: center;
+}
+
+ul.osx-dock li a {
+	display: block;
+	height: 50px;
+	padding: 0 1px;
+
+	-webkit-transition: 0.15s linear;
+	-moz-transition: 0.15s linear;
+	-o-transition: 0.15s linear;
+	-ms-transition: 0.15s linear;
+	transition: 0.15s linear;
+
+	-webkit-transition-property: -webkit-transform margin;
+	-moz-transition-property: -moz-transform margin;
+	-o-transition-property: -o-transform margin;
+	-ms-transition-property: -ms-transform margin;
+	transition-property: transform margin;
+	margin: 0;
+	-webkit-box-reflect: below 2px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.45, transparent), to(rgba(255, 255, 255, 0.25)));
+}
+
+ul.osx-dock li a img {
+	width: 48px;
+}
+
+ul.osx-dock li:hover {
+	margin-left: 9px;
+	margin-right: 9px;
+	z-index: 200;
+}
+
+ul.osx-dock li:hover a {
+	-webkit-transform-origin: center bottom;
+	-moz-transform-origin: center bottom;
+	-o-transform-origin: center bottom;
+	-ms-transform-origin: center bottom;
+	transform-origin: center bottom;
+
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	transform: scale(1.5);
+}
+
+ul.osx-dock li.nearby {
+	margin-left: 6px;
+	margin-right: 6px;
+	z-index: 100;
+}
+
+ul.osx-dock li.nearby a {
+	-webkit-transform-origin: center bottom;
+	-moz-transform-origin: center bottom;
+	-o-transform-origin: center bottom;
+	-ms-transform-origin: center bottom;
+	transform-origin: center bottom;
+
+	-webkit-transform: scale(1.25);
+	-moz-transform: scale(1.25);
+	-o-transform: scale(1.25);
+	-ms-transform: scale(1.25);
+	transform: scale(1.25);
+}
+
+ul.osx-dock li span {
+	background: rgba(0,0,0,0.75);
+	position: absolute;
+	bottom: 80px;
+	margin: 0 auto;
+	display: none;
+	width: auto;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 3px 6px;
+	border-radius: 6px;
+	color: #fff;
+}
+
+ul.osx-dock li:hover span {
+	display: block;
+}
+
+div#dockContainer {
+	position: fixed;
+	bottom: 25px;
+	height: 120px;
+	padding: 60px 0 0;
+	text-align: center;
+	border-radius: 6px;
+	width: 100%;
+	line-height: 1;
+	z-index: 100;
+}
+
+div#dockWrapper {
+	width: auto;
+	display: inline-block;
+	position: relative;
+	border-bottom: solid 2px rgba(255,255,255,.35);
+	line-height: 0;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  /* background-color: #ffffff; */
+	background-image: url("Window.png");
+  margin: auto;
+  padding: 20px;
+  border-radius: 8px;
+  width: 50%;
+	height: 75%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 16px;
+  font-weight: normal;
+	position: relative;
+	right: 99%;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.micro li {
+	text-align: left;
+	list-style-type: none;
+}
+.micro li a{
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+}
+.micro li a:hover {
+	text-decoration: none;
+	color: grey;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+#imgbox{
+	position: absolute;
+	width: 20%;
+	height: 59%;
+	right: 27%;
+	top: 20%;
+	border-radius:8px;
+}
