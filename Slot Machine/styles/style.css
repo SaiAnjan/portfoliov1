@@ -14,7 +14,10 @@ code {
   background-color: rgba(245, 245, 245, 0.7) !important;
   text-align: left;
 }
-
+body{
+  background-image: url("../new_imgs/bg.png");
+  background-size: 1440px 1024px;
+}
 .well {
   padding: 25px;
   background-color: rgba(245, 245, 245, 0.7);
