@@ -50,7 +50,7 @@ a:hover{
 }
 
 .slotMachine .slot{
-  height:100px;
+  height:250px;
   background-position-x: 55%;
   background-repeat: no-repeat;
 }
@@ -358,9 +358,9 @@ header a {
 }
 
 .slotMachine{
-  width: 6.333333%;
+  width: 250px;
   border: 5px solid #CF5178;
-  height: 100px;
+  height: 250px;
   display: inline-block;
 }
 
