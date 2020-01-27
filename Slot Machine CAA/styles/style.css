@@ -58,89 +58,16 @@ a:hover{
   background-repeat: no-repeat;
 }
 
-.slotD1 {
-  background-image: url("../new_imgs/D1.jpg");
+.slot1 {
+  background-image: url("../new_imgs/1.jpg");
 }
 
-.slotD2 {
-  background-image: url("../new_imgs/D2.jpg");
+.slot2 {
+  background-image: url("../new_imgs/2.jpg");
 }
 
-.slotD3 {
-  background-image: url("../new_imgs/D3.jpg");
-}
-
-
-
-.slotE1 {
-  background-image: url("../new_imgs/E1.jpg");
-}
-
-.slotE2 {
-  background-image: url("../new_imgs/E2.jpg");
-}
-
-.slotE3 {
-  background-image: url("../new_imgs/E3.jpg");
-}
-
-
-
-.slotS1 {
-  background-image: url("../new_imgs/S1.jpg");
-}
-
-.slotS2 {
-  background-image: url("../new_imgs/S2.jpg");
-}
-
-.slotS3 {
-  background-image: url("../new_imgs/S3.jpg");
-}
-
-
-
-
-.slotI1 {
-  background-image: url("../new_imgs/I1.jpg");
-}
-
-.slotI2 {
-  background-image: url("../new_imgs/I2.jpg");
-}
-
-.slotI3 {
-  background-image: url("../new_imgs/I3.jpg");
-}
-
-
-
-
-.slotG1 {
-  background-image: url("../new_imgs/G1.jpg");
-}
-
-.slotG2 {
-  background-image: url("../new_imgs/G2.jpg");
-}
-
-.slotG3 {
-  background-image: url("../new_imgs/G3.jpg");
-}
-
-
-
-
-.slotN1 {
-  background-image: url("../new_imgs/N1.jpg");
-}
-
-.slotN2 {
-  background-image: url("../new_imgs/N2.jpg");
-}
-
-.slotN3 {
-  background-image: url("../new_imgs/N3.jpg");
+.slot3 {
+  background-image: url("../new_imgs/3.jpg");
 }
 
 
@@ -365,7 +292,6 @@ header a {
   border: 5px solid #000000;
   height: 250px;
   display: inline-block;
-  
 }
 
 #casino .btn-group {

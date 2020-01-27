@@ -46,44 +46,29 @@
         <div>
           <center>
           <div id="casino1" class="slotMachine">
-            <div class="slot slotD1"></div>
-            <div class="slot slotD2"></div>
-            <div class="slot slotD3"></div>
+            <div class="slot slot1"></div>
+            <div class="slot slot2"></div>
+            <div class="slot slot3"></div>
           </div>
 
           <div id="casino2" class="slotMachine">
-            <div class="slot slotE1"></div>
-            <div class="slot slotE2"></div>
-            <div class="slot slotE3"></div>
+            <div class="slot slot1"></div>
+            <div class="slot slot2"></div>
+            <div class="slot slot3"></div>
           </div>
 
           <div id="casino3" class="slotMachine">
-            <div class="slot slotS1"></div>
-            <div class="slot slotS2"></div>
-            <div class="slot slotS3"></div>
+            <div class="slot slot1"></div>
+            <div class="slot slot2"></div>
+            <div class="slot slot3"></div>
           </div>
 
-          <div id="casino4" class="slotMachine">
-            <div class="slot slotI1"></div>
-            <div class="slot slotI2"></div>
-            <div class="slot slotI3"></div>
-          </div>
+          <p id="demo"></p>
 
-          <div id="casino5" class="slotMachine">
-            <div class="slot slotG1"></div>
-            <div class="slot slotG2"></div>
-            <div class="slot slotG3"></div>
-          </div>
-
-          <div id="casino6" class="slotMachine">
-            <div class="slot slotN1"></div>
-            <div class="slot slotN2"></div>
-            <div class="slot slotN3"></div>
-          </div>
 
           <div class="btn-group btn-group-justified" role="group">
             <button id="casinoShuffle" type="button" class="btn btn-primary btn-lg" style="opacity:0.0">Shuffle!</button>
-            <button id="casinoStop" type="button" class="btn btn-primary btn-lg" style="opacity:0.0">Stop!</button>
+            <button id="casinoStop" type="button" class="btn btn-primary btn-lg" style="opacity:0.0" onclick="check()">Stop!</button>
           </div>
         </div>
       </div>
@@ -97,9 +82,7 @@ const btnStop = document.querySelector('#casinoStop');
 const casino1 = document.querySelector('#casino1');
 const casino2 = document.querySelector('#casino2');
 const casino3 = document.querySelector('#casino3');
-const casino4 = document.querySelector('#casino4');
-const casino5 = document.querySelector('#casino5');
-const casino6 = document.querySelector('#casino6');
+
 const mCasino1 = new SlotMachine(casino1, {
   active: 0,
   delay: 500
@@ -112,50 +95,28 @@ const mCasino3 = new SlotMachine(casino3, {
   active: 2,
   delay: 500
 });
-const mCasino4 = new SlotMachine(casino4, {
-  active: 3,
-  delay: 500
-});
-const mCasino5 = new SlotMachine(casino5, {
-  active: 4,
-  delay: 500
-});
-const mCasino6 = new SlotMachine(casino6, {
-  active: 5,
-  delay: 500
-});
+
     </script>
     <script id="codeScript6">
 btnShuffle.addEventListener('click', () => {
-  count = 6;
+  count = 3;
   mCasino1.shuffle(9999);
   mCasino2.shuffle(9999);
   mCasino3.shuffle(9999);
-  mCasino4.shuffle(9999);
-  mCasino5.shuffle(9999);
-  mCasino6.shuffle(9999);
 });
 
 btnStop.addEventListener('click', () => {
   switch(count) {
-    case 6:
+    case 3:
       mCasino1.stop();
       break;
-    case 5:
+    case 2:
       mCasino2.stop();
       break;
-    case 4:
+    case 1:
       mCasino3.stop();
       break;
-    case 3:
-      mCasino4.stop();
-      break;
-    case 2:
-      mCasino5.stop();
-      break;
-    case 1:
-      mCasino6.stop();
-      break;
+
   }
   count--;
 });
@@ -172,7 +133,17 @@ btnStop.addEventListener('click', () => {
       });
     </script>
 
-
+    <script>
+function check() {
+  var item1 = document.getElementById("casino1");
+  var item2 = document.getElementById("casino2");
+  var item3 = document.getElementById("casino3");
+  var x = item1.isSameNode(item2);
+  var y = item2.isSameNode(item3);
+  var z = item3.isSameNode(item1);
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
 
   </body>
 </html>
