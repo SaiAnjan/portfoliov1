@@ -40,8 +40,12 @@ An enquiry system which is on platform which gets live data from NTES and contro
 I visited Vijayawada Junction's Enquiry counter and sat inside the counter to interact with the staff and get to know how do they work. I came to know that there are 30 topics of the enquiry from which any question can be asked and can facilitate all the questions about Railways:
 
 ![Report%20Stage%200/IMG_4402.jpg](Report%20Stage%200/IMG_4402.jpg)
+
+The different forms of information sources on the platform or near the concourses at most of the stations in the country are:
 ![Report%20Stage%200/IMG_4402.jpg](Report%20Stage%200/LED.png)
+These are the LED Borads which contain the Arrival and Departure information of trains. These come from the national train database which is the same accross all stations in India.
 ![Report%20Stage%200/IMG_4402.jpg](Report%20Stage%200/TV.png)
+These TV Displaysa are also the same as the above LED Borads. These will be installed in every platform of the station.
 ![Report%20Stage%200/IMG_4402.jpg](Report%20Stage%200/Fare.png)
 ![Report%20Stage%200/IMG_4402.jpg](Report%20Stage%200/Self.png)
 ![Report%20Stage%200/IMG_4402.jpg](Report%20Stage%200/ATVM.png)
@@ -49,17 +53,9 @@ I visited Vijayawada Junction's Enquiry counter and sat inside the counter to in
 ![Report%20Stage%200/IMG_4402.jpg](Report%20Stage%200/Coach.png)
 ![Report%20Stage%200/IMG_4402.jpg](Report%20Stage%200/Platform.png)
 ![Report%20Stage%200/IMG_4402.jpg](Report%20Stage%200/Staff.png)
+![Report%20Stage%200/IMG_4402.jpg](Report%20Stage%200/Staff.png)
 ![Report%20Stage%200/IMG_4402.jpg](Report%20Stage%200/Enquiry.png)
 ![Report%20Stage%200/IMG_4402.jpg](Report%20Stage%200/Map.png)
-
-
-The different forms of information sources on the platform or near the concourses at most of the stations in the country are:
-
-> Arrival/Departure LED Boards image
-
-> TV display on the platform with Arrival/Departure
-
-> Train fare details board
 
 > Where is my Train? application screenshot
 
