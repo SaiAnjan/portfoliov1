@@ -69,8 +69,8 @@ $('.slide').each(function(index) {
 
   scenes[index] = new ScrollMagic.Scene({
       triggerElement: trigger,
-      triggerHook: 'onCenter',
-      duration: '50%'
+      triggerHook: 0,
+      duration: '100%'
     })
     .addIndicators({
       name: trigger,
